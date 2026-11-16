@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' https://avatars.githubusercontent.com data:; connect-src https://api.github.com; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>notthei — Security Researcher</title>
+  <meta name="description" content="notthei のポートフォリオ。リバースエンジニアリング / 脆弱性診断 / CTF">
+  <meta property="og:title" content="notthei — Security Researcher">
+  <meta property="og:description" content="Reverse Engineering / Vulnerability Assessment / CTF">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://notthei.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/main.js" defer></script>
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">~/notthei</a>
+    <nav>
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#ctf">ctf</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img id="avatar" class="avatar" src="https://avatars.githubusercontent.com/notthei" alt="notthei avatar" width="112" height="112">
+      <div>
+        <p class="prompt"><span class="user">notthei@github</span>:<span class="path">~</span>$ whoami</p>
+        <h1>notthei</h1>
+        <p class="tagline">Reverse Engineering · Vulnerability Assessment · CTF Player</p>
+        <p class="lead">
+          バイナリ解析・脆弱性診断・ペネトレーションテストを中心に活動しています。
+          Windows / Linux の内部構造を掘りつつ、Web / モバイル / API の診断と、それを支えるツール開発をしています。
+        </p>
+        <div class="cta">
+          <a class="btn" href="https://github.com/notthei" rel="noopener noreferrer" target="_blank">GitHub</a>
+          <a class="btn ghost" href="#projects">Projects ↓</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2><span class="hash">#</span> about</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Focus</h3>
+          <ul class="list">
+            <li>バイナリ解析・リバースエンジニアリング（難読化 / アンチデバッグ / 暗号処理の解析）</li>
+            <li>脆弱性診断（Web / モバイル / ネットワーク / API）</li>
+            <li>ペネトレーションテスト</li>
+            <li>OS内部構造（Windows / Linux / macOS）</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Now</h3>
+          <ul class="list">
+            <li><!-- TODO: 所属・学校・役職などを記入 -->所属: TODO</li>
+            <li><!-- TODO --> 現在取り組んでいること: TODO</li>
+            <li><!-- TODO --> 興味: Windows internals / Malware analysis</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2><span class="hash">#</span> skills</h2>
+      <div class="grid three">
+        <div class="card">
+          <h3>Reversing / Pwn</h3>
+          <div class="tags">
+            <span>IDA Pro</span><span>Binary Ninja</span><span>radare2</span><span>gdb / pwndbg</span>
+            <span>objdump</span><span>readelf</span><span>x86-64</span><span>PE / ELF</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Web / API</h3>
+          <div class="tags">
+            <span>Burp Suite</span><span>SQLi</span><span>XSS</span><span>SSRF</span><span>SSTI</span>
+            <span>XXE</span><span>IDOR</span><span>JWT / OAuth</span><span>Race Condition</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Mobile</h3>
+          <div class="tags">
+            <span>jadx</span><span>apktool</span><span>Frida</span><span>Android</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Languages</h3>
+          <div class="tags">
+            <span>C / C++</span><span>Python</span><span>Go</span><span>Rust</span>
+            <span>TypeScript</span><span>C#</span><span>Java</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>OS</h3>
+          <div class="tags">
+            <span>Windows Internals</span><span>Linux</span><span>macOS</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>CTF</h3>
+          <div class="tags">
+            <span>Web</span><span>Pwn</span><span>Rev</span><span>Crypto</span><span>Forensics</span><span>Misc</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ctf">
+      <h2><span class="hash">#</span> ctf</h2>
+      <!-- TODO: 実績に置き換え。不要な行は削除 -->
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Year</th><th>Event</th><th>Team</th><th>Rank</th><th>Writeup</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>2026</td><td>TODO CTF</td><td>TODO</td><td>—</td><td>—</td></tr>
+            <tr><td>2025</td><td>TODO CTF</td><td>TODO</td><td>—</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2><span class="hash">#</span> projects</h2>
+      <p class="muted">GitHub の公開リポジトリから自動取得しています（fork は除外）。</p>
+      <div id="repos" class="grid three" aria-live="polite">
+        <p class="muted">loading…</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2><span class="hash">#</span> contact</h2>
+      <div class="card">
+        <ul class="list links">
+          <li>GitHub: <a href="https://github.com/notthei" rel="noopener noreferrer" target="_blank">github.com/notthei</a></li>
+          <!-- TODO: 公開して良いものだけ追加
+          <li>X: <a href="https://x.com/xxxx" rel="noopener noreferrer" target="_blank">@xxxx</a></li>
+          <li>Blog: <a href="https://zenn.dev/xxxx" rel="noopener noreferrer" target="_blank">zenn.dev/xxxx</a></li>
+          -->
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> notthei · hosted on GitHub Pages</p>
+  </footer>
+</body>
+</html>
