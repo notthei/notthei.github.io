@@ -1,8 +1,3 @@
-# notthei.github.io
-
-https://notthei.github.io/
-
-ビルド不要の静的サイト（HTML / CSS / JS のみ）。
 
 ```
 .
@@ -14,14 +9,3 @@ https://notthei.github.io/
     └── favicon.svg
 ```
 
-## 編集ポイント
-
-- `index.html` の `TODO` コメント箇所（所属、CTF実績、連絡先）
-- `assets/main.js` の `CONFIG.pinned` / `CONFIG.exclude`（表示するリポジトリの順序・除外）
-
-## ローカル確認
-
-```bash
-python3 -m http.server 8000
-# http://localhost:8000
-```
